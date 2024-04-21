@@ -1,6 +1,15 @@
+/* tomado de un ejemplo en la web */
+
+
 #include <SPI.h>
 #include <Adafruit_GFX.h>
 #include <Max72xxPanel.h>    // Biblioteca para controlar matrices LED basadas en MAX7219/7221
+
+// Pin DIN -> 23
+// Pin CS  -> 5
+// Pin CLK -> 18
+
+
 
 int pinCS = 5; // Asigna el pin CS a este pin, DIN a MOSI y CLK a SCK 
 
