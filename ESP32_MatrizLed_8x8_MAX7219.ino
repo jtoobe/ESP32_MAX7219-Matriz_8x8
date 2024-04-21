@@ -155,7 +155,7 @@ void loop() {
   delay(500);
   
   // Texto en la pantalla
- String my_string = "Void Loop";   // Este texto se mostrará, una letra a la vez
+ String my_string = "1 2 3 4 5 6 7 8 9 0";   // Este texto se mostrará, una letra a la vez
  for (int i = 0; i<my_string.length(); i++) // Recorre el contenido de la cadena
  {
   matrix.fillScreen(0);                     // Limpia la pantalla antes de mostrar el siguiente carácter
