@@ -1,5 +1,6 @@
 /* tomado de un ejemplo en la web */
 
+// se alimenta con 5v
 
 #include <SPI.h>
 #include <Adafruit_GFX.h>
